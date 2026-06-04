@@ -4,3 +4,43 @@ public class Upskilling{
         System.out.println("Hello World");
     }
 }
+
+// Que 3
+import java.util.Scanner;
+
+public class Upskilling{
+    public static void main(String[]args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number");
+        int a = sc.nextInt();
+        if(a%2==0){
+            System.out.println("Even Number");
+        }
+        else{
+            System.out.println("Odd Number");
+        }
+    }
+}
+
+// Que 4
+
+
+import java.util.Scanner;
+
+public class Upskilling{
+    public static void main(String[]args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the year");
+        int a = sc.nextInt();
+        if(a%400==0){
+            System.out.println("Century Year");
+        }
+        else if(a%4==0){
+            System.out.println("Leap Year");
+        }
+        else{
+            System.out.println("Ordinary Year");
+        }
+        
+    }
+}
